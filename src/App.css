@@ -1,38 +1,231 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+/* custom colors  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bgcolor);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #6f5de7;
+  --text-color: #828286;
+  --main-text-color: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+
+/* Navbar - Start */
+.navbar-bg {
+  background-color: var(--bgcolor);
+  padding: 2rem;
+  z-index: 99;
+  position: relative;
+}
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ephesis', cursive;
+  font-weight: bolder;
+}
+
+.navbar li {
+  padding: 0 2rem;
+}
+
+.navbar li .nav-link {
+  font-size: 1.7rem;
+  font-weight: lighter;
+  position: relative;
+}
+
+.navbar li .nav-link:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+/* Navbar - End */
+
+/* Home - Start */
+
+.main-hero-container {
+  /* height: 50vh; */
+  margin: 5rem 0 5rem 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.main-hero-container h1 {
+  text-transform: capitalize;
+  font-size: 2.4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-hero-para {
+  font-size: 1.9rem;
+  color: var(--text-color);
+  margin: 2rem 0 3rem 0;
+  font-weight: lighter;
+  width: 90%;
+  height: auto;
+  text-align: justify;
+  
+}
+
+.img-fluid {
+  width: 90%;
+  height: auto;
+  padding: 2.9rem 0 1.7rem 0;
+  animation: floating 4s infinite ease-in-out;
+}
+
+.social-icons .icon {
+  margin: 0 1rem 0 1rem;
+}
+
+.skill-head{
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 3rem  0;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translate(0, 15px);
   }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+
+/* Home - End */
+
+/* Education - Start */
+
+.text-center img{
+  margin: 2rem 3.5rem;
+  height: 60vh;
+  width: 80%;
+}
+
+
+
+/* Education - End */
+
+/* Experience - Start */
+
+.heading-exp{
+  text-transform: capitalize;
+}
+
+#panel1a-header{
+  background-color: var(--bgcolor);
+  box-shadow: 0.2rem 0 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+#panel1a-header h1{
+  font-size: 2rem;
+}
+
+.accdetails{
+  color: #fff;
+  background-color: var(--bgcolor);
+}
+
+.card-header{
+  color: var(--main-text-color);
+  font-size: 2.3rem;
+  font-weight: lighter;
+}
+
+.card-title{
+  font-size: 2.5rem;
+}
+
+.card-text{
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+/* Experience - End */
+
+
+/* Contact - Start */
+
+.contact-img{
+  width: 90%;
+  height: auto;
+  padding: 2.9rem 0 1.7rem 0;
+}
+
+.contact_email{
+  margin: 6rem 0 0 0;
+  /* font-size: 4.5rem; */
+  color: var(--main-text-color)
+}
+
+.email{
+  font-size: 1.8rem;
+  margin: 1.4rem 0 0 0;
+  color: var(--text-color);
+}
+
+/* Contact - End */
+
+/* --------------------------------- responsive media queries -------------------------------------------------------*/
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+
+  /* @media (max-width: 850px) {
+    *{
+      background-color: red;
+    }
+  } */
+  
+
 }
