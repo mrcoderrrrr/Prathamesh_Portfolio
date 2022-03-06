@@ -5,6 +5,12 @@ const projectapi = [
         technology: "Android, Firebase",
         date:" May 2021"
     },
+     {
+        name: "Sales Enquiry",
+        desc: "This app is based on real estate business and main purpose is get information from client",
+        technology: "Android, Firebase ,Ui design(Figma)",
+        date:" Sep 2021"
+    },
 ];
 
 export default projectapi;
