@@ -43,7 +43,7 @@ const Contact = () => {
               />
             </a>
             <a
-              href="https://twitter.com/Prathamesh_0101"
+              href=https:"//twitter.com/pratham_0110?t=FjZW-08J57gTxW_DVkZqrA&s=08"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,7 +54,7 @@ const Contact = () => {
               />
             </a>
             <a
-              href="https://instagram.com/2000.pratham?utm_medium=copy_link"
+              href="https://www.instagram.com/_.pratham._0110/"
               target="_blank"
               rel="noreferrer"
             >
