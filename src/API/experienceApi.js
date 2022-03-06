@@ -10,7 +10,7 @@ const expApi = [
     role: "Andriod Developer(Kotlin)",
     duration: "Jan 2022 - Present",
     
-  }
+  },
 ];
 
 export default expApi;
