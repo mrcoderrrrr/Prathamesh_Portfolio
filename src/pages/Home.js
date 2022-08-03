@@ -45,7 +45,7 @@ const Home = () => {
               />
             </a>
             <a
-              href="https://twitter.com/MCoderrrrr"
+              href="https://twitter.com/pratham_0110?t=D%_g_YZLpnpf8yK36fYRZQ&s=08"
               target="_blank"
               rel="noreferrer"
             >
@@ -56,7 +56,7 @@ const Home = () => {
               />
             </a>
             <a
-              href="https://instagram.com/2000.pratham?utm_medium=copy_link"
+              href="https://www.instagram.com/its.pratham.here/"
               target="_blank"
               rel="noreferrer"
             >

@@ -11,6 +11,11 @@ const expApi = [
     duration: "Jan 2022 - Present",
     
   },
+  {
+    company: "Pamac Finserve Pvt Ltd",
+    role: "Andriod Developer",
+    duration: "Jul 2022 - Present",
+  },
 ];
 
 export default expApi;
